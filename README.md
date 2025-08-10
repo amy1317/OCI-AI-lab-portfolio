@@ -1,2 +1,2 @@
-# Oracle-Cloud-Infrastructure-AI
+# OCI-AI
 Oracle Cloud Infrastructure AI Foundations Project
