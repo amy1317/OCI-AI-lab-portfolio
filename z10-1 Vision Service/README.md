@@ -1,4 +1,4 @@
-# Lab 09 – OCI Vision Service
+# Lab 10-1 – OCI Vision Service
 
 ## **Purpose**
 Perform image classification and object detection with OCI Vision.
