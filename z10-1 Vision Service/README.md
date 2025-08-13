@@ -1,14 +1,16 @@
 # Lab 10-1 – OCI Vision Service
 
-## **Purpose**
-Perform image classification and object detection with OCI Vision.
+## Purpose
+Test Oracle Cloud’s pre-trained Vision AI model for image classification using the console interface.
 
-## **Contents**
-- `oci_vision.ipynb`
-- `sample_image.jpg`
+## Files
 
-## **How to Run**
-1. Open notebook with OCI config.
-2. Use sample image for predictions.
-3. View classification and bounding box results.
+| File Name                       | Type        | Description                                 |
+|----------------------------------|-------------|---------------------------------------------|
+| ImageClassificationResponse.jpg  | Screenshot  | Screenshot: JSON output of image classification results |
+| ImageClassificationResults.jpg   | Screenshot  | Screenshot: Results table and request JSON structure    |
 
+## Notes
+- Task: Image classification of a cat photo using the Oracle Cloud Vision AI Service.
+- The model correctly predicted "Cat" with high confidence.
+- Screenshots provide both technical (JSON) and user interface evidence of lab completion.
