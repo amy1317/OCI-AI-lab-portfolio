@@ -1,14 +1,17 @@
 # Lab 10 – OCI Document Understanding Service
 
-## **Purpose**
-Extract data and text from documents using OCI Document Understanding.
+## Purpose
+Test and document the use of Oracle Cloud’s Document Understanding service for text extraction (OCR) from an image using the Console.
 
-## **Contents**
-- `oci_document_understanding.ipynb`
-- `sample_doc.pdf`
+## Files
 
-## **How to Run**
-1. Ensure OCI SDK and config are set up.
-2. Open notebook.
-3. Upload PDF or image document and extract structured data.
+| File Name                      | Type        | Description                                        |
+|------------------------------- |------------ |----------------------------------------------------|
+| Text-Extraction-Request.jpg     | Screenshot  | The API/service request JSON sent from the Console |
+| Text-Extraction-Response.jpg    | Screenshot  | The OCR response JSON, containing extracted text   |
+
+## Notes
+- This lab demonstrates hands-on OCR using Oracle Cloud.
+- The screenshots provide both the setup and results, including all output JSON details for verification.
+
 
