@@ -1,4 +1,4 @@
-# Lab 10-1 – OCI Vision Service
+# Lab 9-01 – OCI Vision Service
 
 ## Purpose
 Test Oracle Cloud’s pre-trained Vision AI model for image classification using the console interface.
