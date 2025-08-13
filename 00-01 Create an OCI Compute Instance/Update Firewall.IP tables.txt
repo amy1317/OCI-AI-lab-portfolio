@@ -1,0 +1,45 @@
+Welcome to Oracle Cloud Shell.
+
+
+NOTE: When using OCI Service Network, you can only access resources within your home region. Attempting to use the CLI to access your non-home region will cause a timeout.
+
+Your Cloud Shell machine comes with 5GB of storage for your home directory. Your Cloud Shell (machine and home directory) are located in: Japan East (Tokyo).
+You are using Cloud Shell in tenancy ocuocictrng8 as OCI local user 98769704-lab.user01
+
+Type `help` for more info.
+
+x_98769704@cloudshell:~ (eu-frankfurt-1)$ ls -l ~/.ssh
+total 12
+-rw-------. 1 x_98769704 oci 1831 Aug 10 01:34 ailabskey
+-rw-r--r--. 1 x_98769704 oci  381 Aug 10 02:04 ailabskey.pub
+-rw-r--r--. 1 x_98769704 oci  175 Aug 10 02:29 known_hosts
+
+
+x_98769704@cloudshell:~ (eu-frankfurt-1)$ chmod 600 ~/.ssh/ailabskey
+x_98769704@cloudshell:~ (eu-frankfurt-1)$ ssh -i ~/.ssh/ailabskey opc@130.61.100.27
+Activate the web console with: systemctl enable --now cockpit.socket
+
+Last login: Sun Aug 10 02:29:25 2025 from 158.101.128.54
+[opc@ai-labs ~]$ sudo firewall-cmd --zone=public --add-port=8888/tcp --
+usage: see firewall-cmd man page
+firewall-cmd: error: unrecognized arguments: --
+[opc@ai-labs ~]$ sudo firewall-cmd --zone=public --add-port=8888/tcp -- permanent
+usage: see firewall-cmd man page
+firewall-cmd: error: unrecognized arguments: -- permanent
+[opc@ai-labs ~]$ sudo firewall-cmd --zone=public --add-port=8888/tcp --permanent
+success
+[opc@ai-labs ~]$ sudo firewall-cmd --reload
+success
+[opc@ai-labs ~]$  sudo iptables -A INPUT -p tcp --dport 8888 -j ACCEPT 
+[opc@ai-labs ~]$ cd labs/ 
+[opc@ai-labs labs]$ source $HOME/.bashrc 
+[opc@ai-labs labs]$  python --version 
+Python 3.11.9
+[opc@ai-labs labs]$ tree $HOME/labs 
+/home/opc/labs
+├── init-ailabs.sh
+├── install.sh
+└── speech-test.wav
+
+0 directories, 3 files
+[opc@ai-labs labs]$ 
