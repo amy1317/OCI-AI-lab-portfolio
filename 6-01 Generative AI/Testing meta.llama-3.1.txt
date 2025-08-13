@@ -1,0 +1,48 @@
+# Testing meta.llama-3.1-70b-instruct in OCI Playground
+
+## Steps
+
+1. **Open OCI Generative AI Playground** in the OCI Console.
+2. Click the **Clear chat** button.
+3. In the **Model** dropdown, select:
+
+meta.llama-3.1-70b-instruct
+
+4. Copy and paste the following block of text into the **message box** and click **Submit**:
+
+The median house value in Butlerville has fallen significantly in the
+last few months. Nonetheless, the number of homes sold has been at its
+lowest level in seven years.
+
+Which of the following best explains the discrepancy?
+1. The value of homes is not the only determinant of whether a house
+will be sold.
+2. The neighboring city of Jacksonburg has seen a recent surge in home
+sales.
+3. The Butlerville economy is struggling and the unemployment rate has
+reached historic rates.
+4. Analysts predict that the number of homes sold will increasing in
+the coming year.
+5. Homes priced over a million dollars have seen the sharpest decline
+in sales.
+
+
+
+# Butlerville Housing Scenario — Question & Answer Analysis
+
+**Answer: Option 1**  
+
+1. *The value of homes is not the only determinant of whether a house will be sold.*  
+   This answer choice may sound tempting, only because it may not be immediately apparent what the implications of the answer choice are. Even if there are other indicators of whether a home sells, what are these indicators? Regardless, our question of why fewer homes are being sold is not directly answered. Whenever you are unsure on an answer choice, do not feel you have to eliminate it right away. Come back to it if necessary. Often a much obvious answer choice awaits.
+
+2. *The neighboring city of Jackson has seen a recent surge in home sales.*  
+   This answer choice is **Out of Scope**, because we are trying to explain what is going on in Butlerville not in Jacksonburg.
+
+3. *The Butlerville economy is struggling and the unemployment rate has reached historic rates.*  
+   Here is a good reason people aren’t buying homes. People are unemployed and not making money (you do need money to buy a home, after all). So now we have the answer as to why fewer homes are being sold. **This is the correct answer.**
+
+4. *Analysts predict that the number of homes sold will increase in the coming year.*  
+   The coming year does not explain why so few houses have sold in the current year. **Out of Scope.**
+
+5. *Homes priced over a million dollars have seen the sharpest decline in sales.*  
+   While this may be true, it does not explain why fewer people in Butlerville are buying homes.
