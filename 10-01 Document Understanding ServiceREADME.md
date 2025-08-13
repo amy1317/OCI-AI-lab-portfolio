@@ -1,4 +1,4 @@
-# Lab 10-11 – OCI Document Understanding Service
+# Lab 10 – OCI Document Understanding Service
 
 ## **Purpose**
 Extract data and text from documents using OCI Document Understanding.
