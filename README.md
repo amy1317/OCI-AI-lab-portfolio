@@ -17,8 +17,8 @@ Each lab includes:
 6. OCI Generative AI  
 7. OCI Language Service  
 8. OCI Speech Service  
-10.1. OCI Vision Service  
-10.11 OCI Document Understanding Service  
+9. OCI Vision Service  
+10. OCI Document Understanding Service  
 
 ## **Requirements**
 - Python 3.x  
