@@ -1,0 +1,41 @@
+# Using Embeddings in OCI Generative AI Playground
+
+## Steps to Run Sentence Embeddings
+
+1. **Open the Generative AI Playground in OCI Console**  
+   Under the **Playground** section, click **Embedding**.
+
+2. **Clear any existing input**  
+   Click the **Clear** button.
+
+3. **Select Your Model**  
+   From the **Model** dropdown, choose: 
+	cohere.embed-english-v3.0
+
+4. **Add Sentences One by One**  
+Copy and paste each sentence below **one at a time**, clicking the **Add sentence** button after each:
+
+- I like apple.  
+- I like cars.  
+- I like bananas.  
+- I do not like pears.  
+- I like flying by plane.  
+- I love pumpkin.  
+- I like spinach.  
+
+5. **Run the Embedding**  
+Click **Run**.
+
+6. **Analyze the Output Vector Projection**  
+- Sentences with similar meaning are close to each other.  
+  Example:  
+    - Sentence 2: *I like cars*  
+    - Sentence 5: *I like flying by plane*  
+    These appear near each other because of similar sentiment.  
+
+- Sentence 4 (*I do not like pears*) is farther away because of the “do not like” phrase.
+
+---
+
+### **Try it Yourself**
+- Add your own custom sentences, click **Run**, and compare how their vectors cluster in the output projection.
