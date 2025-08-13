@@ -1,0 +1,25 @@
+# AI Labs – OCI Language – Lab 7‑01 – Practice
+
+## Objective
+Practice using **OCI Language** in the Playground to analyze a block of text for language detection, sentiment, entities, and key phrases.
+
+## Steps
+1. Logged in to **Oracle Cloud Infrastructure Console**.
+2. Navigated to **AI Services > Language > Playground**.
+3. Cleared any existing text in the input area.
+4. Selected the **[Default Language Model]** specified in the lab instructions.
+5. Copied and pasted the provided sample text from the Lab 7‑01 guide into the Playground input box.
+6. Clicked **Submit** to process the text.
+7. Viewed and interpreted the results as shown in the lab manual.
+
+## Output
+- **Detected Language:** English (en).
+- **Sentiment:** e.g., Mixed / Positive / Negative (varies based on sample text).
+- **Entities:** Main topics and named entities detected in the text.
+- **Key Phrases:** Highlighted important terms and phrases.
+
+## Notes
+- This lab was a **copy-and-paste exercise** — no custom Python code was used.
+- All processing was done within the OCI Console Playground interface.
+
+
