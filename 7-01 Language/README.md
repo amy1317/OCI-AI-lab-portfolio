@@ -1,14 +1,15 @@
 # Lab 07 – OCI Language Service
 
-## **Purpose**
-Test text analysis, classification, and language model capabilities in OCI.
+## Purpose
+Analyze a block of text for language detection, sentiment, entities, and key phrases using the OCI Language Playground.
 
-## **Contents**
-- `oci_language_models.ipynb`
-- Optional: `oci_language_api_test.py`
+## Files
+| File Name                     | Type               | Description |
+|--------------------------------|--------------------|-------------|
+| OCI-Language-Lab-7-01.txt      | Lab log / procedure| Full step-by-step record of the lab, including objectives, actions, and outputs. |
 
-## **How to Run**
-1. Ensure OCI Python SDK installed.
-2. Open notebook or script, set up OCI config.
-3. Run to test text classification or sentiment analysis.
+## Notes
+- This lab was completed entirely in the OCI Console Playground.
+- No Jupyter Notebook was used.
+- See `OCI-Language-Lab-7-01.txt` for exact steps and results.
 
