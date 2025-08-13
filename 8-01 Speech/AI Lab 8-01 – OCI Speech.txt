@@ -1,0 +1,39 @@
+# AI Labs – OCI Speech – Lab 8-01 – Practice
+
+## Objective
+Practice using the **Oracle Cloud Infrastructure (OCI) Speech Service** to process audio data.  
+This lab focuses on leveraging OCI Speech-to-Text and/or Text-to-Speech capabilities through the OCI Console or Playground.
+
+## Steps
+1. Log in to **Oracle Cloud Infrastructure (OCI)** Console.
+2. Navigate to **AI Services > Speech**.
+3. Open the **Speech Service Playground** or the relevant Speech interface.
+4. Depending on the lab instructions, either:  
+   - Upload or record audio files to convert speech to text, or  
+   - Input text to generate synthesized speech audio.
+5. Configure necessary parameters such as language, voice selection, audio format, or sampling rate.
+6. Click **Run** or **Submit** to process the audio/text.
+7. Review and analyze the output transcript or synthesized audio playback.
+8. Optionally, experiment with different settings or sample inputs to observe effects on accuracy or audio quality.
+
+## Output
+- **Speech-to-Text:** You should see a text transcription of the uploaded or recorded audio.
+- **Text-to-Speech:** You will receive an audio file or playback of synthesized voice reading the input text.
+- Notes on transcription accuracy, recognition latency, or voice quality per your observations.
+
+## Notes
+- This lab primarily uses the OCI console web interface; no custom coding is required unless extending functionality via SDKs.
+- You may want to note any challenges faced or key insights gained while using different voices or language settings.
+- Optionally, you can mention if you tested the service on different audio qualities or languages.
+
+## Screenshots
+Include screenshots of your lab work in the following locations within your GitHub repo:
+- Input interface screenshot (e.g., show uploaded audio or text input):  
+  `images/lab8-01-input.png`
+- Output screenshot (transcription text or audio playback interface):  
+  `images/lab8-01-output.png`
+
+---
+
+**Example screenshot markdown:**
+
